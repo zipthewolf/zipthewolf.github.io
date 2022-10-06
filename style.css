@@ -1,3 +1,56 @@
 body {
-  background: #454545;
+  background: #121212;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #03dac6;
+}
+.fa-user {
+  float: right;
+  cursor:pointer;
+}
+.fa-bars {
+  cursor:pointer;
+}
+.main {
+  margin-top: 3em;
+}
+h2 {
+  color: #FFFFFF;
+  display: inline-block;
+}
+.profile {
+  display: inline-block;
+  margin-top:0;
+  height: 2em;
+  width: 2em;
+  margin-bottom: -0.5em;
+  border-radius: 50%;
+}
+.top {
+  margin-top: -1em;
+  width:100%;
+  height: 4.5em;
+}
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20%;
+}
+.box h4 { margin: 0px 0px 5px; font-size: 120%; font-weight: 400; }
+.box {
+  width: 25em;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 0.5em;
+  background-color: #232323;
+  border-radius: 10px;
+}
+.box img, .box svg {
+  float: left;
+  margin-right:15px;
+  border-radius: 10%;
+  height: 100%;
+  width: 20%;
 }
